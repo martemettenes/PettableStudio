@@ -16,7 +16,7 @@ export default {
         {
             name: 'type',
             type: 'string',
-            title: 'Animal'
+            title: 'Type of animal'
         }
     ]
 }
