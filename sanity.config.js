@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'sanity-svelte-test-01',
+  title: 'pettable-studio',
 
   projectId: '9g8006q8',
   dataset: 'production',
