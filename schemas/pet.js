@@ -37,6 +37,29 @@ export default {
                     title: 'Attribution',
                 }
             ]
+        },
+        {
+            name: 'description',
+            type: 'string',
+            title: 'Description'
+        },
+        // {
+        //     name: 'medication',
+        //     type: 'reference',
+        //     title: 'Medication',
+        //     of: [{type: 'medication'}]
+        // },
+        {
+            name: 'vaccination',
+            type: 'array',
+            title: 'Vaccination',
+            of: []
+        },
+        {
+            name: 'owner',
+            type: 'reference',
+            title: 'Owner',
+            to: [{type: 'owner'}]
         }
     ]
 }
